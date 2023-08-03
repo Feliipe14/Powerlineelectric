@@ -55,7 +55,7 @@
     text-align: center;
     color: black;
   }
-  @media screen and (max-width: 760px){
+  @media screen and (max-width: 660px){
     .video{ 
       width: 50px;
       height: 150px;
