@@ -88,3 +88,15 @@
         column-count: 2; /* Especifica el número de columnas */
         column-gap: 100px; /* Espacio entre las columnas */
       }
+
+      @media screen and (max-width: 560px){
+        .columnas-contenedor{ 
+          column-count: 1;
+            column-gap: 0;
+        }
+
+        .map {
+          width: 300px;
+        }
+       }
+      
