@@ -55,7 +55,7 @@
     text-align: center;
     color: black;
   }
-  @media screen and (max-width: 660px){
+  @media screen and (max-width: 560px){
     .video{ 
       width: 50px;
       height: 150px;
@@ -82,3 +82,9 @@
     
  
   }
+
+      /* Estilo para el contenedor de las columnas */
+      .columnas-contenedor {
+        column-count: 2; /* Especifica el número de columnas */
+        column-gap: 100px; /* Espacio entre las columnas */
+      }
