@@ -101,3 +101,63 @@
         }
        }
       
+
+       .social-contact {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .social-contact a {
+        display: block;
+        text-decoration: none;
+        transition: transform 0.3s ease;
+    }
+    
+    .social-contact img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .social-contact a:hover {
+        transform: scale(1.1);
+    }
+
+
+    .content {
+      padding-top: 100px;
+    }
+
+
+    .navbar {
+      background-color: black !important;
+    }
+
+   
+    
+    .buttons a {
+      text-decoration: none;
+      font-size: 28px;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      background: #314652;
+      color: #f1f1f1;
+      border-radius: 50%;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+      transition: all .4s ease-in-out;
+    }
+    
+    .buttons a:hover {
+      transform: scale(1.2);
+    }
+
+    .contenedor-botones {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      gap: 40px;
+      padding: 50px;
+      justify-content: center;
+    }
+
